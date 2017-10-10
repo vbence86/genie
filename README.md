@@ -1,5 +1,5 @@
 # Genie
-Lightweight un-opinionated router implementation built on top of Express
+Lightweight hassle-free router implementation built on top of Express. Enjoy ES2015+ and that's it.
 
 ### Usage 
 #### Create your own service implementation
