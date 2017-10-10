@@ -1,0 +1,31 @@
+{
+  "name": "services.webellionlimited.com",
+  "version": "1.0.0",
+  "description": "Global unopinionated router for individual services hosted at services.webellionlimited.com",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vbence86/services.webellionlimited.com.git"
+  },
+  "keywords": [
+    "Router",
+    "Express",
+    "RESTful",
+    "API"
+  ],
+  "author": "Bence Varga <vbence86@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/vbence86/services.webellionlimited.com/issues"
+  },
+  "homepage": "https://github.com/vbence86/services.webellionlimited.com#readme",
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "express": "^4.16.2",
+    "forever": "^0.15.3",
+    "nodemailer": "^4.1.3"
+  }
+}
