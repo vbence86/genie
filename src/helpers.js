@@ -21,13 +21,13 @@ function installer(app) {
         "Invalid Service API! Service must expose a `run` function"
       );
     app[service.type || "get"](service.urlPattern, (req, res) => {
-      service
-        .run({ req, res })
+      Promise.resolve()
+        .then(() => service.run({ req, res }))
         .then(response => res.json(response || { status: 200 }))
         .catch(err => res.status(500).json(err));
     });
   };
 }
 
-export { cors, installer, validation };
+export { cors, installer, validate };
 export default installer;

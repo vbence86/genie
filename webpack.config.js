@@ -38,7 +38,7 @@ config.output = {
 };
 
 config.resolve = {
-  extensions: ["", ".js", ".json"]
+  extensions: [".js", ".json"]
 };
 
 config.module = {
