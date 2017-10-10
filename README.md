@@ -31,3 +31,17 @@ installer(app)(myService);
 app.listen( /* ... */ )
 ```
 
+#### Build
+```
+npm run build
+```
+
+#### Start Server
+```
+npm run start
+```
+
+#### Stop Server
+```
+npm run stop
+```
